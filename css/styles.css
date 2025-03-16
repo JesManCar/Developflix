@@ -8,6 +8,7 @@ body {
   padding: 20px;
   border: 1px solid #ccc;
   background-color: #f8f8f8;
+  display: grid;
 }
 
 h2 {
@@ -16,3 +17,23 @@ h2 {
 }
 
 
+.genero{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  /*width: 100%;*/
+}
+
+.unique_film {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  margin: 10px;
+  width: 100px;
+}
+
+.poster{
+  width: 100px;
+  height: 150px;
+}
